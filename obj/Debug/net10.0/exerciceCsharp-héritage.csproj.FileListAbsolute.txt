@@ -12,3 +12,4 @@ C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\refint\exerci
 C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\exerciceCsharp-héritage.pdb
 C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\exerciceCsharp-héritage.genruntimeconfig.cache
 C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\ref\exerciceCsharp-héritage.dll
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\exerciceCsharp-héritage.sourcelink.json
