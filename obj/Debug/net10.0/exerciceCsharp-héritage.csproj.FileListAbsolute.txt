@@ -1,0 +1,14 @@
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\exerciceCsharp-héritage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\exerciceCsharp-héritage.AssemblyInfoInputs.cache
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\exerciceCsharp-héritage.AssemblyInfo.cs
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\exerciceCsharp-héritage.csproj.CoreCompileInputs.cache
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\bin\Debug\net10.0\exerciceCsharp-héritage.exe
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\bin\Debug\net10.0\exerciceCsharp-héritage.deps.json
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\bin\Debug\net10.0\exerciceCsharp-héritage.runtimeconfig.json
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\bin\Debug\net10.0\exerciceCsharp-héritage.dll
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\bin\Debug\net10.0\exerciceCsharp-héritage.pdb
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\exerciceCsharp-héritage.dll
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\refint\exerciceCsharp-héritage.dll
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\exerciceCsharp-héritage.pdb
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\exerciceCsharp-héritage.genruntimeconfig.cache
+C:\Users\alvin\BTS-SIO2\exerciceCsharp-héritage\obj\Debug\net10.0\ref\exerciceCsharp-héritage.dll
