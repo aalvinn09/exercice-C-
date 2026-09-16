@@ -1,41 +1,47 @@
-﻿Compte compte1 = new Compte();
-Compte compte2 = new Compte();
+﻿
 
- 
-compte1.Numero = "FR001";
-compte1.Titulaire = "Alice";
-compte1.Solde = 1000m;
+Compte compte = new Compte();
 
-compte2.Numero = "FR002";
-compte2.Titulaire = "Bob";
-compte2.Solde = 500m;
+compte.Numero = "FR001";
+compte.Titulaire = "Alice";
+compte.Solde = 1000m;
 
+Console.WriteLine($"Solde de départ : {compte.Solde}");
 
-Console.WriteLine("Compte 1 :");
-Console.WriteLine($"Numéro : {compte1.Numero}");
-Console.WriteLine($"Titulaire : {compte1.Titulaire}");
-Console.WriteLine($"Solde : {compte1.Solde}");
+compte.Crediter(200m);
+Console.WriteLine($"Apres credit : {compte.Solde}");
 
-Console.WriteLine();
-
-Console.WriteLine("Compte 2 :");
-Console.WriteLine($"Numéro : {compte2.Numero}");
-Console.WriteLine($"Titulaire : {compte2.Titulaire}");
-Console.WriteLine($"Solde : {compte2.Solde}");
-
-
-compte1.Solde = 1500m;
-
-Console.WriteLine();
-Console.WriteLine("Après modification du compte 1 :");
-
-Console.WriteLine($"Solde compte 1 : {compte1.Solde}");
-Console.WriteLine($"Solde compte 2 : {compte2.Solde}");
-
+compte.Debiter(50m);
+Console.WriteLine($"Apres debit : {compte.Solde}");
 
 class Compte
 {
-    public string Numero { get; set; }
-    public string Titulaire { get; set; }
-    public decimal Solde { get; set; }
+    public string Numero {get; set;}
+    public string Titulaire {get; set}
+    public decimal Solde {get; set}
+
+    public void Crediter (decimal montant)
+    {
+        if (montant > 0)
+        {
+            Solde += montant;
+        }
+    }
+
+
+public void Debiter(decimal montant)
+{     
+    if (montant > 0 && montant <= Solde)
+    {
+    Solde = Montant;
+    }
+else
+{
+    Console.WriteLine("Debit impossible");
 }
+}
+}
+
+
+
+ 
