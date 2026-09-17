@@ -6,6 +6,14 @@ class Compte
     public string Titulaire { get; set; }
     public decimal Solde { get; set; }
 
+    public Compte(string numero, string titulaire)
+    {
+        Numero=numero;
+        Titulaire=titulaire;
+        Solde=0m;
+
+    }
+
     public void Crediter(decimal montant)
     {
         if (montant > 0)
