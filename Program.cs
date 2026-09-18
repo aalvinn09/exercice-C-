@@ -1,13 +1,18 @@
 ﻿
 Compte compte = new Compte("FR001", "Alice");
+Compte compte2 = new Compte("FR002", "Bob", 500m);
 
-Console.WriteLine($"Numéro : {compte.Numero}");
-Console.WriteLine($"Titulaire : {compte.Titulaire}");
-Console.WriteLine($"Solde initial : {compte.Solde}");
+Console.WriteLine("Compte 1");
+Console.WriteLine($"Numéro : {compte1.Numero}");
+Console.WriteLine($"Titulaire : {compte1.Titulaire}");
+Console.WriteLine($"Solde  : {compte1.Solde}");
 
-compte.Crediter(500m);
+Console.WriteLine();
 
-Console.WriteLine($"Solde après crédit : {compte.Solde}");
 
+Console.WriteLine("Compte 2");
+Console.WriteLine($"Numéro : {compte2.Numero}");
+Console.WriteLine($"Titulaire : {compte2.Titulaire}");
+Console.WriteLine($"Solde : {compte2.Solde}");
 
  

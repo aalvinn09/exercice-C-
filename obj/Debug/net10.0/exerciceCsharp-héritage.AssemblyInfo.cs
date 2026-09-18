@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("exerciceCsharp-héritage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c475d8414a98c06fe3286fc9ccb41d3e1da5f8f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c30369b62b8f61bed9102047273d6bb7bb9d71e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("exerciceCsharp-héritage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("exerciceCsharp-héritage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

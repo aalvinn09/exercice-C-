@@ -7,13 +7,19 @@ class Compte
     public decimal Solde { get; set; }
 
     public Compte(string numero, string titulaire)
+    : this(numero, titulaire, 0m)
+    {
+        
+    }
+
+    public Compte(string numero, string titulaire, decimal solde)
     {
         Numero=numero;
         Titulaire=titulaire;
         Solde=0m;
 
-    }
-
+    }   
+       
     public void Crediter(decimal montant)
     {
         if (montant > 0)
